@@ -1,9 +1,9 @@
 # FindMSSQL
 Find all MSSQL Server
 
-°°Àº ³×Æ®¿öÅ©¸Á¿¡ ¼³Ä¡µÈ MSSQLÀÇ Á¤º¸¸¦ Á¶È¸ ÇÕ´Ï´Ù.
+ê°™ì€ ë„¤íŠ¸ì›Œí¬ë§ì— ì„¤ì¹˜ëœ MSSQLì˜ ì •ë³´ë¥¼ ì¡°íšŒ í•©ë‹ˆë‹¤.
 
-Visual Studio 2015 MFC ±â¹Ý¿¡¼­ ÄÚµùÇØ ºÃ½À´Ï´Ù.
+Visual Studio 2015 MFC ê¸°ë°˜ì—ì„œ ì½”ë”©í•´ ë´¤ìŠµë‹ˆë‹¤.
 
 
 ## Enveroment
@@ -12,8 +12,8 @@ Visual Studio 2015 MFC ±â¹Ý¿¡¼­ ÄÚµùÇØ ºÃ½À´Ï´Ù.
 
 ## How to use
 
-* ÇÔ¼ö ¿øÇüÀº ¾Æ·¡¿Í °°½À´Ï´Ù.
-* 3¹øÂ° ÆÄ¶ó¹ÌÅÍ¸¦ »ý·«ÇÏ¸é °°Àº ³×Æ®¿öÅ©¸ÁÀÇ ¸ðµç ¼­¹ö¸¦ °Ë»öÇÕ´Ï´Ù. (Broadcast)
+* í•¨ìˆ˜ ì›í˜•ì€ ì•„ëž˜ì™€ ê°™ìŠµë‹ˆë‹¤.
+* 3ë²ˆì§¸ íŒŒë¼ë¯¸í„°ë¥¼ ìƒëžµí•˜ë©´ ê°™ì€ ë„¤íŠ¸ì›Œí¬ë§ì˜ ëª¨ë“  ì„œë²„ë¥¼ ê²€ìƒ‰í•©ë‹ˆë‹¤. (Broadcast)
 
 ```c++
 bool GetMSSQLInfo(CString &info, int timeout_sec, CString ip = _T(""));
@@ -21,8 +21,9 @@ bool GetMSSQLInfo(CString &info, int timeout_sec, CString ip = _T(""));
 
 ## How to implement
 
-* MSSQLÀ» ¼³Ä¡ÇÏ¸é SQL Server Browser°¡ ÇÔ²² ¼³Ä¡µË´Ï´Ù.
-* SQL Server Browser Á¢¼ÓÇØ¼­ DBMS Á¤º¸¸¦ °¡Á®¿É´Ï´Ù.
-  - UDP 1434 Æ÷Æ®¿¡ Á¢¼Ó
+* MSSQLì„ ì„¤ì¹˜í•˜ë©´ SQL Server Browserê°€ í•¨ê»˜ ì„¤ì¹˜ë©ë‹ˆë‹¤.
+* SQL Server Browser ì ‘ì†í•´ì„œ DBMS ì •ë³´ë¥¼ ê°€ì ¸ì˜µë‹ˆë‹¤.
+  - UDP 1434 í¬íŠ¸ì— ì ‘ì†
   - Send  0x02
+  - Receive Data
 
